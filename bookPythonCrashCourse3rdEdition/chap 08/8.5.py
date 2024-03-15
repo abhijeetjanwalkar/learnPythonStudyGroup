@@ -6,10 +6,10 @@ Give the parameter for the country a default value.
 Call your function for three different cities, at least one of which is not in the default country.
 '''
 
-def describe_city(city, country='India'):
+def describe_city(city, country='india'):
     """ This function describes city and its country   """
     print(f"{city.title()} is in {country.title()}")
 
-describe_city('Wien', 'Austria')
-describe_city('Pune')
+describe_city('Wien', 'austria')
+describe_city('pune', country='india' )
 describe_city('Mumbai')

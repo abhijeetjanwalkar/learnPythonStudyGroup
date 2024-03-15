@@ -9,4 +9,4 @@ def favourite_book(title):
     """ This function displays favourite book"""
     print(f"My favourite book is '{title.title()}'.")
 
-favourite_book('Python Crash Course')
+favourite_book('Python crash cOurse')

@@ -11,4 +11,4 @@ def make_shirt(size, text):
     print(f"The selected T-shirt Size is '{size}', and Text to be printed is '{text}'")
 
 make_shirt('medium', 'Python is COOL!!!!')  
-make_shirt(size='large', text='I love Programming')
+make_shirt(text='I love Programming', size='large' )
